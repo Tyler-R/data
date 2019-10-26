@@ -1,0 +1,306 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.8"/>
+		<specularcoeff v="0.8"/>
+		<ambientcoeff v="0.8"/>
+	</globaldata>
+
+    <cameradata>
+	<pos x="0" y="-2" z="23"/>
+	<focus x="-1" y="1" z="-5"/>
+	<up x="0" y="1" z="0"/>
+	<heightangle v="10"/>
+    </cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<color r="1" g="1" b="1"/>
+		<position x="5" y="5" z="5"/>
+	</lightdata>
+
+
+ <object type="tree" name="pumpkin1">
+	<transblock>
+		<translate x="0" y="0.29" z="0"/>
+	    <rotate x="0.3" y="0" z="0.5" angle="-10"/>
+	    <scale x="0.1" y="0.2" z="0.1"/>
+	    <object type="primitive" name="cylinder" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/handler.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <scale x="1" y="0.6" z="1"/>
+	    <object type="primitive" name="sphere" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/pumpkin1.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+
+<object type="tree" name="pumpkin2">
+	<transblock>
+		<translate x="0" y="0.55" z="0"/>
+	    <rotate x="1" y="0" z="0.3" angle="10"/>
+	    <scale x="0.12" y="0.2" z="0.12"/>
+	    <object type="primitive" name="cylinder" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/handler.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+		<transblock>
+	    <translate x="0" y="0.45" z="0"/>
+	    <scale x="1" y="0.3" z="1"/>
+	    <object type="primitive" name="cone" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/pumpkin2-top.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <scale x="1" y="0.9" z="1"/>
+	    <object type="primitive" name="sphere" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/pumpkin2.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+
+<object type="tree" name="pumpkin3">
+	<transblock>
+		<translate x="0" y="0.455" z="0"/>
+	    <rotate x="0.5" y="0.2" z="0.6" angle="20"/>
+	    <scale x="0.12" y="0.22" z="0.12"/>
+	    <object type="primitive" name="cylinder" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/handler.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <scale x="0.95" y="1" z="0.95"/>
+	    <object type="primitive" name="sphere" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/pumpkin3.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+
+<object type="tree" name="pumpkin4">
+	<transblock>
+		<translate x="0" y="0.45" z="0"/>
+	    <scale x="0.12" y="0.2" z="0.12"/>
+	    <rotate x="0.3" y="0" z="1" angle="-20"/>
+	    <object type="primitive" name="cylinder" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/handler.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <object type="primitive" name="sphere" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/pumpkin4.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+
+ <object type="tree" name="pumpkin5">
+	<transblock>
+		<translate x="0" y="0.45" z="0"/>
+	    <rotate x="1" y="0" z="1" angle="30"/>
+	    <scale x="0.1" y="0.2" z="0.1"/>
+	    <object type="primitive" name="cylinder" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/handler.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <scale x="0.7" y="0.9" z="0.7"/>
+	    <object type="primitive" name="sphere" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/pumpkin5.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+<object type="tree" name="pumpkin6">
+	<transblock>
+		<translate x="0" y="0.6" z="0"/>
+		<rotate x="1" y="0" z="0" angle="30"/>
+	    <scale x="0.12" y="0.38" z="0.12"/>
+	    <object type="primitive" name="cylinder" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/handler.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+
+    <transblock>
+		<translate x="0" y="0.5" z="0"/>
+	    <scale x="1" y="0.4" z="1"/>
+	    <rotate x="1" y="0" z="0" angle="-10"/>
+	    <object type="primitive" name="cone" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/pumpkin6-top.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+
+	<transblock>
+	    <scale x="1.1" y="1.1" z="1.1"/>
+	    <object type="primitive" name="sphere" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/pumpkin6.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+<object type="tree" name="flower">
+	<transblock>
+		<translate x="0" y="0.3" z="0"/>
+	    <object type="primitive" name="sphere" >
+	     <texture file="/course/cs123/data/scenes/shared/halloween/flower.jpeg" u="1" v="1"/>
+	    <blend v="1.0"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+		<transblock>
+	    <scale x="1" y="0.6" z="1"/>
+	    <object type="primitive" name="cylinder" >
+	        <texture file="/course/cs123/data/scenes/shared/halloween/basin.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+
+<object type="tree" name="step">
+	<transblock>
+	    <scale x="4" y="1" z="1"/>
+	    <object type="primitive" name="cube" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/step.png" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+<object type="tree" name="wall">
+	<transblock>
+	    <scale x="4" y="5" z="0.2"/>
+	    <object type="primitive" name="cube" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/wall.jpg" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+<object type="tree" name="door">
+	<transblock>
+	    <scale x="1" y="3" z="0.15"/>
+	    <object type="primitive" name="cube" >
+	    <texture file="/course/cs123/data/scenes/shared/halloween/door.jpg" u="1" v="1"/>
+	    <blend v="1.0"/>
+		<diffuse r="1" g="1" b="1"/>
+		<ambient r="0.7" g="0.7" b="0.7"/>
+	    </object>
+	</transblock>
+</object>
+
+	<object type="tree" name="root">
+	    <transblock>
+	    <translate x="0.1" y="-0.2" z="0"/>
+	    <object type="master" name="pumpkin1" />
+	    </transblock>
+
+	    <transblock>
+	    <translate x="-1" y="0" z="0"/>
+	    <scale x="1.1" y="1.1" z="1.1"/>
+	    <object type="master" name="pumpkin2" />
+	    </transblock>
+
+ 		<transblock>
+	    <translate x="-2.1" y="0" z="0"/>
+	    <object type="master" name="pumpkin3" />
+	    </transblock>
+
+ 		<transblock>
+	    <translate x="-1" y="-0.9" z="0"/>
+	    <scale x="1" y="1" z="1.3"/>
+	    <object type="master" name="step" />
+	    </transblock>
+
+	    <transblock>
+	    <translate x="0.5" y="1.05" z="-1"/>
+	    <object type="master" name="pumpkin4" />
+	    </transblock>
+
+	    <transblock>
+	    <translate x="-1" y="1" z="-1"/>
+	    <object type="master" name="pumpkin5" />
+	    </transblock>
+
+	    <transblock>
+	    <translate x="-2" y="1.1" z="-0.82"/>
+	    <object type="master" name="pumpkin6" />
+	    </transblock>
+
+
+	    <transblock>
+	    <translate x="-1" y="-0.41" z="-1.8"/>
+	      <scale x="1" y="1.97" z="2.4"/>
+	    <object type="master" name="step" />
+	    </transblock>
+
+	    <transblock>
+	    <translate x="-1" y="1" z="-2"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="master" name="flower" />
+	    </transblock>
+
+	    <transblock>
+	    <translate x="-1" y="1.12" z="-3.105"/>
+	    <object type="master" name="wall" />
+	    </transblock>
+
+	    <transblock>
+	    <translate x="0" y="1.12" z="-2.9"/>
+	    <object type="master" name="door" />
+	    </transblock>
+	</object>
+</scenefile>

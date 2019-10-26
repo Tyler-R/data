@@ -1,0 +1,228 @@
+<scenefile>
+	<globaldata>
+	<diffusecoeff v="0.5" />
+	<specularcoeff v="0.5" />
+	<ambientcoeff v="0.5" />
+	</globaldata>
+
+	<cameradata>
+	<pos x="-2" y="4" z="9" />
+	<focus x="4.5" y="0" z="1.5" />
+	<up x="0" y="1" z="0" />
+	<heightangle v="60" />
+	</cameradata>
+
+	<lightdata>
+	<id v="0"/>
+	<position x="8.5" y="2" z="8.5"/>
+	<color r="1" g="1" b="1"/>
+	<function v1=".1" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+	<id v="1"/>
+	<position x="3" y="3" z="3"/>
+	<color r="1" g="1" b="1"/>
+	<function v1="0.1" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+	<id v="2"/>
+	<position x="-3" y="4" z="-3"/>
+	<color r="1" g="1" b="1"/>
+	<function v1=".1" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+	<id v="3"/>
+	<position x="-3" y="2" z="3"/>
+	<color r="1" g="1" b="1"/>
+	<function v1=".1" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+	<id v="4"/>
+	<position x="8" y="3" z="1"/>
+	<color r="1" g="1" b="1"/>
+	<function v1=".1" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+	<id v="5"/>
+	<position x="6" y="2" z="6"/>
+	<color r="1" g="1" b="1"/>
+	<function v1=".1" v2="1" v3="0"/>
+	</lightdata>
+
+	<object type="tree" name="root">
+	<transblock>
+		<object type="tree">
+		<transblock>
+			<translate x="3" y="0" z="4" />
+			<scale x="7" y="0.1" z="3" />
+			<object type="primitive" name="cube">
+			<diffuse r="0" g="0.2" b="0" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0.3" y="0" z="5.2" />
+			<scale x="0.2" y="0.1" z="1.3" />
+			<object type="primitive" name="cube">
+			<diffuse r="0" g="0.2" b="0" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="1.1" y="0" z="5.2" />
+			<scale x="1" y="0.1" z="1.3" />
+			<object type="primitive" name="cube">
+			<diffuse r="0" g="0.2" b="0" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="2" y="0" z="5.2" />
+			<scale x="0.2" y="0.1" z="1.3" />
+			<object type="primitive" name="cube">
+			<diffuse r="0" g="0.2" b="0" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0.3" y="0.07" z="5.8" />
+			<scale x="0.2" y="0.03" z="0.1" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.6" g="0.6" b="0" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="1.1" y="0.07" z="5.8" />
+			<scale x="1" y="0.03" z="0.1" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.6" g="0.6" b="0" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="3" y="0.2" z="4" />
+			<scale x="7" y="0.4" z="3" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.4" g="0.4" b="0.4" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.55" y="0.35" z="4" />
+			<scale x="0.01" y="0.8" z="3.2" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.55" y="0.1" z="5.75" />
+			<scale x="0.01" y="0.3" z="0.3" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.55" y="0.6" z="5.75" />
+			<scale x="0.01" y="0.3" z="0.3" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.75" y="0.35" z="2.4" />
+			<scale x="0.4" y="0.8" z="0.01" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.6" y="0.2" z="4.4" />
+			<scale x="0.1" y="0.1" z="0.1" />
+			<rotate x="0" y="0" z="1" angle="90" />
+			<object type="primitive" name="cylinder">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.6" y="0.5" z="4.4" />
+			<scale x="0.1" y="0.1" z="0.1" />
+			<rotate x="0" y="0" z="1" angle="90" />
+			<object type="primitive" name="cylinder">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.6" y="0.2" z="5.2" />
+			<scale x="0.1" y="0.1" z="0.1" />
+			<rotate x="0" y="0" z="1" angle="90" />
+			<object type="primitive" name="cylinder">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.6" y="0.5" z="5.2" />
+			<scale x="0.1" y="0.1" z="0.1" />
+			<rotate x="0" y="0" z="1" angle="90" />
+			<object type="primitive" name="cylinder">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.6" y="0.5" z="4.8" />
+			<scale x="0.1" y="0.1" z="0.5" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-0.6" y="0.2" z="4.8" />
+			<scale x="0.1" y="0.1" z="0.5" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="3" y="0.6" z="4" />
+			<scale x="7" y="0.4" z="3" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.7" g="0.7" b="0.7" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="1.5" y="0.76" z="4" />
+			<scale x="3.4" y="0.1" z="1.7" />
+			<object type="primitive" name="cube">
+			<diffuse r="0.2" g="0.2" b="0.2" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.2" y="0.76" z="4" />
+			<scale x="2.8" y="0.1" z="2.8" />
+			<object type="primitive" name="cylinder">
+			<diffuse r="0.2" g="0.2" b="0.2" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.2" y="0.77" z="4" />
+			<scale x="2" y="0.1" z="2" />
+			<object type="primitive" name="cylinder">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.2" y="0.78" z="4" />
+			<scale x="1.9" y="0.1" z="1.9" />
+			<object type="primitive" name="cylinder">
+			<diffuse r="0.2" g="0.2" b="0.2" />
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.2" y="0.83" z="4" />
+			<scale x="1.3" y="0.2" z="1.3" />
+			<object type="primitive" name="cone">
+			<diffuse r="0.8" g="0.8" b="0.8" />
+			</object>
+		</transblock>
+		</object>
+	</transblock>
+	</object>
+</scenefile>

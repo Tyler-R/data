@@ -1,0 +1,181 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="2.0"/>
+		<specularcoeff v="0.5"/>
+		<ambientcoeff v="0.0"/>
+	</globaldata>
+
+	<cameradata>
+		<pos x="-2.0" y="4" z="0"/>
+		<up x="0" y="1" z="1"/>
+		<focus x="5.0" y="0" z="0"/>
+		<heightangle v="60"/>
+	</cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<color r="0.99" g="0.98" b="0.88"/>
+		<position x="0" y="0" z="0"/>
+	</lightdata>
+
+	<object type="tree" name="root">
+		<transblock>
+			<object type="tree" name="root">
+				<transblock>
+					<scale x="1.09" y="1.09" z="1.09"/>
+					<object type="primitive" name="sphere" >
+						<diffuse r="0.99" g="0.98" b="0.68"/>
+						<shininess v="20"/>
+						<specular r="0" g="0" b="0"/>
+						<emissive r="0.99" g="0.98" b="0.68"/>
+					</object>
+				</transblock>
+			</object>
+			<object type="tree">
+				<transblock>
+					<translate x=".38" y="0" z="0"/>
+					<object type="tree">
+						<transblock>
+							<scale x=".0038" y=".0038" z=".0038"/>
+							<object type="primitive" name="sphere" >
+								<diffuse r="0.85" g="0.70" b="0.39"/>
+								<shininess v="10"/>
+								<specular r="0.85" g="0.70" b="0.39"/>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+			<object type="tree">
+				<transblock>
+					<translate x=".72" y="0" z="0"/>
+					<object type="tree">
+						<transblock>
+							<scale x=".0094" y=".0094" z=".0094"/>
+							<object type="primitive" name="sphere" >
+								<diffuse r="1.0" g="0.574" b="0.68"/>
+								<shininess v="20"/>
+								<specular r="1.0" g="0.574" b="0.68"/>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+			<object type="tree">
+				<transblock>
+					<translate x="1.0" y="0" z="0"/>
+					<object type="tree">
+						<transblock>
+							<scale x=".01" y=".01" z=".01"/>
+							<object type="primitive" name="sphere" >
+								<diffuse r="0.01" g="0.21" b="0.29"/>
+								<shininess v="40"/>
+								<specular r="1" g="1" b="1"/>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+			<object type="tree">
+				<transblock>
+					<translate x="1.52" y="0" z="0"/>
+					<object type="tree">
+						<transblock>
+							<scale x=".0053" y=".0053" z=".0053"/>
+							<object type="primitive" name="sphere" >
+								<diffuse r="0.968" g="0.364" b="0.27"/>
+								<shininess v="10"/>
+								<specular r="1" g="1" b="1"/>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+			<object type="tree">
+				<transblock>
+					<translate x="5.02" y="0" z="0"/>
+					<object type="tree">
+						<transblock>
+							<scale x=".197" y=".197" z=".197"/>
+							<object type="primitive" name="sphere" >
+								<diffuse r="0.75" g="0.56" b="0.52"/>
+								<shininess v="30"/>
+								<specular r="0.75" g="0.56" b="0.52"/>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+			<object type="tree">
+				<transblock>
+					<translate x="9.58" y="0" z="0"/>
+					<object type="tree">
+						<transblock>
+							<scale x=".0914" y=".0914" z=".0914"/>
+							<object type="primitive" name="sphere" >
+								<diffuse r="0.764" g="0.717" b="0.56"/>
+								<shininess v="30"/>
+								<specular r="0.764" g="0.717" b="0.56"/>
+							</object>
+							<object type="tree">
+								<transblock>
+									<scale x="1.2" y="0.02" z="1.2"/>
+									<object type="primitive" name="torus" >
+										<diffuse r="0.764" g="0.717" b="0.56"/>
+										<shininess v="20"/>
+										<specular r="0" g="0" b="0"/>
+										<emissive r="0.764" g="0.717" b="0.56"/>
+									</object>
+								</transblock>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+			<object type="tree">
+				<transblock>
+					<translate x="19.02" y="0" z="0"/>
+					<object type="tree">
+						<transblock>
+							<scale x=".0398" y=".0398" z=".0398"/>
+							<object type="primitive" name="sphere" >
+								<diffuse r="0.65" g="0.85" b="0.76"/>
+								<shininess v="30"/>
+								<specular r="0.65" g="0.85" b="0.76"/>
+							</object>
+							<object type="tree">
+								<transblock>
+									<rotate x="0" y="0" z="1" angle="90"/>
+									<scale x=".4" y="0.01" z=".4"/>
+									<object type="primitive" name="torus" >
+										<diffuse r="0.65" g="0.85" b="0.76"/>
+										<shininess v="30"/>
+										<specular r="0.65" g="0.85" b="0.76"/>
+										<emissive r="0.65" g="0.85" b="0.76"/>
+									</object>
+								</transblock>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+			<object type="tree">
+				<transblock>
+					<translate x="30.1" y="0" z="0"/>
+					<object type="tree">
+						<transblock>
+							<scale x=".0386" y=".0386" z=".0386"/>
+							<object type="primitive" name="sphere" >
+								<diffuse r="0.0" g="0.25" b="0.47"/>
+								<shininess v="20"/>
+								<specular r="0" g="0" b="0"/>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+		</transblock>
+	</object>
+
+</scenefile>
+

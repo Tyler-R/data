@@ -1,0 +1,239 @@
+<scenefile>
+    <physics rate="0.01">
+        <world key = "0">
+            <gravity x="0" y="-1.5" z="0"/>
+            <autodisable enabled="true" steps="10"/>
+            <cfm value="0.0001"/>
+            <erp value="0.3"/>
+        </world>
+        <space key="0" worldkey="0"/>
+        <body key="0" worldkey="0"/>
+        <body key="1" worldkey="0"/>
+        <body key="2" worldkey="0"/>
+        <body key="3" worldkey="0"/>
+        <body key="4" worldkey="0"/>
+    </physics>
+
+    <globaldata>
+        <diffusecoeff v="0.5"/>
+        <specularcoeff v="0.5"/>
+        <ambientcoeff v="0.5"/>
+    </globaldata>
+
+    <cameradata>
+            <pos x="-4" y="3" z="3"/>
+            <up x="0" y="1" z="0"/>
+            <focus x="0" y="0" z="0"/>
+            <heightangle v="30"/>
+    </cameradata>
+
+    <lightdata>
+            <id v="0"/>
+            <color r="0.8" g="0.8" b="0.8"/>
+            <position x="7" y="15" z="7"/>
+    </lightdata>
+    <lightdata>
+            <id v="1"/>
+            <color r="0.8" g="0.8" b="0.8"/>
+            <position x="7" y="15" z="-7"/>
+    </lightdata>
+    <lightdata>
+            <id v="2"/>
+            <color r="0.8" g="0.8" b="0.8"/>
+            <position x="-7" y="15" z="0"/>
+    </lightdata>
+    <object type="tree" name="root">
+		<transblock>
+                        <object type="primitive" name="sphere" >
+				<texture file="/course/cs123/data/image/liqmtl.png" u="1" v="1"/>
+				<reflective r="0.3" g="0.3" b="0.3"/>
+                                <diffuse r="0.8" g="0" b="0"/>
+				<blend v="0.8"/>
+				<shininess v="20"/>
+				<specular r="0" g="0" b="0"/>
+                                 <geom key ="4" spacekey="0" bodykey="0">
+                                    <sphere radius="0.2"/>
+                                    <position x="-3" y="1" z="-0.8"/>
+                                    <mass density="1"/>
+                                 </geom>
+                                <throw v="true"/>
+			</object>
+		</transblock>
+                <transblock>
+                        <object type="primitive" name="sphere" >
+                                <shader>
+                                    <vertex file="/course/cs123/data/scenes/shared/cgagner/shaders/bump_multi_light.vert"/>
+                                    <frag file="/course/cs123/data/scenes/shared/cgagner/shaders/bump_multi_light.frag"/>
+                                    <inputs>
+                                       <uniform name="baseColor">
+                                          <vec4 r="0" g="0" b="0.6" a="1" />
+                                       </uniform>
+                                       <uniform name="texture1">
+                                          <sampler file="/course/cs123/data/image/bark.png" id="0" />
+                                       </uniform>
+                                       <uniform name="texture2">
+                                          <sampler file="/course/cs123/data/image/marble.png" id="1" />
+                                       </uniform>
+                                       <uniform name="Tangent" tangent="1" />
+                                       <uniform name="numLights" int="3" />
+                                    </inputs>
+                                </shader>
+                                <reflective r="0.9" g="0.9" b="0.9"/>
+                                <diffuse r="1.0" g="1.0" b="1.0"/>
+                                <shininess v="30"/>
+                                <specular r="1.0" g="1.0" b="1.0"/>
+                                <geom key ="6" spacekey="0" bodykey="2">
+                                   <sphere radius="0.5" />
+                                   <position x="-3" y="5" z="-5"/>
+                                   <mass density="1"/>
+                                </geom>
+                                <throw v="true"/>
+                        </object>
+                        <object type="primitive" name="cube" >
+                                <shader>
+                                    <vertex file="/course/cs123/data/scenes/shared/cgagner/shaders/bump_pro.vert"/>
+                                    <frag file="/course/cs123/data/scenes/shared/cgagner/shaders/bump_map.frag"/>
+                                    <inputs>
+                                       <uniform name="baseColor">
+                                          <vec4 r="0" g="1" b="0" a="1" />
+                                       </uniform>
+                                       <uniform name="BumpMap">
+                                          <sampler file="/course/cs123/data/scenes/shared/cgagner/images/bump2.jpg" id="0" />
+                                       </uniform>
+                                       <uniform name="Texture">
+                                          <sampler file="/course/cs123/data/image/dragons.jpg" id="1" />
+                                       </uniform>
+                                       <uniform name="Tangent" tangent="1" />
+                                       <uniform name="numLights" int="3" />
+                                       <uniform name="u" float="1"/>
+                                       <uniform name="v" float="1"/>
+                                    </inputs>
+                                </shader>
+                                <reflective r="0.9" g="0.9" b="0.9"/>
+                                <diffuse r="1.0" g="1.0" b="1.0"/>
+                                <shininess v="20"/>
+                                <specular r="1.0" g="1.0" b="1.0"/>
+                                <geom key ="7" spacekey="0" bodykey="3">
+                                   <box lx="0.7" ly="0.7" lz="0.7" />
+                                   <position x="-3" y="5" z="1"/>
+                                   <mass density="1"/>
+                                </geom>
+                                <throw v="true"/>
+                        </object>
+                </transblock>
+		<transblock>
+                        <object type="primitive" name="cube" >
+				<reflective r="0.5" g="0.5" b="0.5"/>
+                                <texture file="/course/cs123/data/image/mandril.png" u="1" v="1"/>
+				<reflective r="0.3" g="0.3" b="0.3"/>
+                                <ambient r="0" g="0" b="0" a="1"/>
+				<diffuse r="0" g="0" b="1" a="1"/>
+				<blend v="0.8"/>
+				<shininess v="20"/>
+				<specular r="1" g="1" b="1"/>
+                                <geom key ="5" spacekey="0" bodykey="1">
+                                   <box lx="4" ly="4" lz="4"/>
+                                   <position x="1" y="9.5" z="1"/>
+                                   <mass density="1"/>
+                                </geom>
+                                <shader>
+                                    <vertex file="/course/cs123/data/scenes/shared/cgagner/shaders/bump_pro.vert"/>
+                                    <frag file="/course/cs123/data/scenes/shared/cgagner/shaders/bump_map.frag"/>
+                                    <inputs>
+			               <uniform name="baseColor"> 
+                                          <vec4 r="0" g="0" b="1" a="1" /> 
+                                       </uniform>
+                                       <uniform name="BumpMap">
+                                          <sampler file="/course/cs123/data/scenes/shared/cgagner/images/bump3.jpg" id="0" />
+                                       </uniform>
+                                       <uniform name="Texture">
+                                          <sampler file="/course/cs123/data/scenes/shared/cgagner/images/stone.jpg" id="1" />
+                                       </uniform>
+                                       <uniform name="numLights" int="3" />
+                                       <uniform name="Tangent" tangent="1" />
+                                       <uniform name="u" float="5"/>
+                                       <uniform name="v" float="5"/>
+                                    </inputs>
+                                </shader>
+			</object>
+		</transblock>
+                <transblock>
+                        <object type="primitive" name="cube" >
+                                <reflective r="0.3" g="0.3" b="0.3"/>
+                                <ambient r="0" g="0" b="0" a="1"/>
+                                <diffuse r="0" g="0" b="1" a="1"/>
+                                <shininess v="20"/>
+                                <specular r="1" g="1" b="1"/>
+                                <shader>
+                                    <vertex file="/course/cs123/data/scenes/shared/cgagner/shaders/bump_pro.vert"/>
+                                    <frag file="/course/cs123/data/scenes/shared/cgagner/shaders/bump_map.frag"/>
+                                    <inputs>
+                                       <uniform name="baseColor">
+                                          <vec4 r="0" g="0" b="1" a="1" />
+                                       </uniform>
+                                       <uniform name="BumpMap">
+                                          <sampler file="/course/cs123/data/scenes/shared/cgagner/images/bump3.jpg" id="0" />
+                                       </uniform>
+                                       <uniform name="Texture">
+                                          <sampler file="/course/cs123/data/scenes/shared/cgagner/images/stone.jpg" id="1" />
+                                       </uniform>
+                                       <uniform name="numLights" int="3" />
+                                       <uniform name="Tangent" tangent="1" />
+                                       <uniform name="u" float="10"/>
+                                       <uniform name="v" float="10"/>
+                                    </inputs>
+                                </shader>
+                                <geom key="0" spacekey="0">
+                                    <box lx="20" ly="1" lz="20"/>
+                                    <position x="0" y="-0.5" z="0"/>
+                                </geom>
+                        </object>
+                        <object type="primitive" name="cube" >
+                                <reflective r="0.3" g="0.3" b="0.3"/>
+                                <ambient r="0" g="0" b="0" a="1"/>
+                                <diffuse r="0.2" g="0.2" b="0.2" a="1"/>
+                                <shininess v="20"/>
+                                <specular r="0.2" g="0.2" b="0.2"/>
+                                <geom key="0" spacekey="0">
+                                    <box lx="1" ly="20" lz="20"/>
+                                    <position x="-10.5" y="10" z="0"/>
+                                </geom>
+                        </object>
+                        <object type="primitive" name="cube" >
+                                <reflective r="0.3" g="0.3" b="0.3"/>
+                                <ambient r="0" g="0" b="0" a="1"/>
+                                <diffuse r="0.2" g="0.2" b="0.2" a="1"/>
+                                <shininess v="20"/>
+                                <specular r="0.2" g="0.2" b="0.2"/>
+                                <geom key="0" spacekey="0">
+                                    <box lx="1" ly="20" lz="20"/>
+                                    <position x="10.5" y="10" z="0"/>
+                                </geom>
+                        </object>
+                        <object type="primitive" name="cube" >
+                                <reflective r="0.3" g="0.3" b="0.3"/>
+                                <ambient r="0" g="0" b="0" a="1"/>
+                                <diffuse r="0.2" g="0.2" b="0.2" a="1"/>
+                                <shininess v="20"/>
+                                <specular r="0.2" g="0.2" b="0.2"/>
+                                <geom key="0" spacekey="0">
+                                    <box lx="20" ly="20" lz="1"/>
+                                    <position x="0" y="10" z="-10.5"/>
+                                </geom>
+                        </object>
+                        <object type="primitive" name="cube" >
+                                <reflective r="0.3" g="0.3" b="0.3"/>
+                                <ambient r="0" g="0" b="0" a="1"/>
+                                <diffuse r="0.2" g="0.2" b="0.2" a="1"/>
+                                <shininess v="20"/>
+                                <specular r="1" g="1" b="1"/>
+                                <geom key="0" spacekey="0">
+                                    <box lx="20" ly="20" lz="1"/>
+                                    <position x="0" y="10" z="10.5"/>
+                                </geom>
+                        </object>
+                </transblock>
+        </object>
+
+</scenefile>
+

@@ -1,0 +1,24 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.5"/>
+		<specularcoeff v="0.5"/>
+		<ambientcoeff v="0.5"/>
+	</globaldata>
+
+	<lightdata>
+		<id v="0"/>
+		<color r="1" g="1" b="1"/>
+		<position x="3" y="3" z="3"/>
+	</lightdata>
+
+	<object type="tree" name="root">
+		<transblock>
+			<object type="primitive" name="mesh" filename="/course/cs123/data/mesh/frostmourne.obj" >
+                <texture file="/course/cs123/data/textures/frostmourne.jpg" u="1" v="1"/>
+				<diffuse r="1" g="1" b="1"/>
+			</object>
+		</transblock>
+	</object>
+
+</scenefile>
+

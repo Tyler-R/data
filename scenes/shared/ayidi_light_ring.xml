@@ -1,0 +1,191 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.5"/>
+		<specularcoeff v="0.5"/>
+		<ambientcoeff v="0.5"/>
+	</globaldata>
+
+	<cameradata>
+		<pos x="-5.0" y="3" z="4.0"/>
+		<up x="0" y="1" z="0"/>
+		<focus x="0" y="0" z="0"/>
+		<heightangle v="30"/>
+	</cameradata>
+
+<lightdata>
+	<id v="0"/>
+	<color r="0.23" g="0.23" b="0.23"/>
+	<position x="1.90211" y="3.23607" z="1.38197" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="1"/>
+	<color r="0.83" g="0.83" b="0.83"/>
+	<position x="3.07768" y="1.23607" z="2.23607" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="2"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="0.726542" y="3.23607" z="2.23607" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="3"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="1.17557" y="1.23607" z="3.61803" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="4"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-0.726543" y="3.23607" z="2.23607" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="5"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-1.17557" y="1.23607" z="3.61803" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="6"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-1.90211" y="3.23607" z="1.38197" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="7"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-3.07768" y="1.23607" z="2.23607" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="8"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-2.35114" y="3.23607" z="-2.05543e-07" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="9"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-3.80423" y="1.23607" z="-3.32576e-07" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="10"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-1.90211" y="3.23607" z="-1.38197" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="11"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-3.07768" y="1.23607" z="-2.23607" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="12"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-0.726543" y="3.23607" z="-2.23607" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="13"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="-1.17557" y="1.23607" z="-3.61803" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="14"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="0.726543" y="3.23607" z="-2.23607" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="15"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="1.17557" y="1.23607" z="-3.61803" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="16"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="1.90211" y="3.23607" z="-1.38197" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="17"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="3.07768" y="1.23607" z="-2.23607" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="18"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="2.35114" y="3.23607" z="1.5322e-06" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+<lightdata>
+	<id v="19"/>
+	<color r="0.13" g="0.13" b="0.13"/>
+	<position x="3.80423" y="1.23607" z="2.47915e-06" />
+	<function v1="1" v2="0" v3="0"/>
+</lightdata>
+
+	<object type="tree" name="root">
+		<transblock>
+			<translate x="-0.8" y="0" z="-0.8"/>
+			<object type="primitive" name="sphere" >
+				<transparent r="1" g="1" b="1"/>
+				<ior v="1.5"/>
+				<shininess v="25.0"/>
+				<specular r="1.0" g="1.0" b="1.0"/>
+				<reflective r="0.6" g="0.6" b="0.6"/>
+				<diffuse r="0.8" g="0.8" b="0.8"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0.8" y="0" z="0.8"/>
+			<object type="primitive" name="cylinder" >
+				<shininess v="25.0"/>
+				<specular r="1.0" g="1.0" b="1.0"/>
+				<diffuse r="0.8" g="0.8" b="0.8"/>
+				<reflective r="0.9" g="0.9" b="0.9"/>
+			</object>
+		</transblock>
+
+		<transblock>
+			<translate x="0.8" y="0" z="-0.8"/>
+			<object type="primitive" name="cube" >
+				<shininess v="25.0"/>
+				<specular r="1.0" g="1.0" b="1.0"/>
+				<diffuse r="0.8" g="0.8" b="0.8"/>
+				<reflective r="0.9" g="0.9" b="0.9"/>
+			</object>
+		</transblock>
+
+		<transblock>
+			<translate x="-0.8" y="0" z="0.8"/>
+			<object type="primitive" name="cone" >
+				<shininess v="25.0"/>
+				<specular r="1.0" g="1.0" b="1.0"/>
+				<diffuse r="1" g="1" b="1"/>
+				<reflective r="0.9" g="0.9" b="0.9"/>
+			</object>
+		</transblock>
+
+		<transblock>
+			<translate x="0" y="-0.6" z="0"/>
+			<scale x="1000" y="0.2" z="1000"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="1" b="1"/>
+				<reflective r="0.3" g="0.3" b="0.3"/>
+				<texture file="/course/cs123/data/image/board.png" u="500" v="500"/>
+				<blend v="0.9"/>
+			</object>
+		</transblock>
+	</object>
+
+</scenefile>
+
